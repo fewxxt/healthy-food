@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useCart, COUPONS } from "@/components/Providers";
 import { useDialog } from "@/components/Dialog";
 
-const PAY: [string, string][] = [["promptpay", "📱 พร้อมเพย์ / QR"], ["card", "💳 บัตรเครดิต/เดบิต"], ["cod", "💵 เก็บเงินปลายทาง"]];
+const PAY: [string, string][] = [["promptpay", "พร้อมเพย์ / QR"], ["card", "บัตรเครดิต/เดบิต"], ["cod", "เก็บเงินปลายทาง"]];
 
 type Card = { number: string; name: string; exp: string; cvv: string };
 
